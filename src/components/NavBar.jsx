@@ -12,12 +12,12 @@ const NavBar = () =>{
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="https://www.google.com/">Inicio</Nav.Link>
-            <Nav.Link href="https://www.google.com/">Contacto</Nav.Link>
+            <Nav.Link href="https://www.google.com/">Inicio.</Nav.Link>
+            <Nav.Link href="https://www.google.com/">Contacto.</Nav.Link>
             <NavDropdown title="Productos" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://www.google.com/">Todos</NavDropdown.Item>
-              <NavDropdown.Item href="https://www.google.com/">Oficios más elegidos</NavDropdown.Item>
-              <NavDropdown.Item href="https://www.google.com/">Promociones</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.google.com/">Oficios más elegidos.</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.google.com/">Promociones.</NavDropdown.Item>
             </NavDropdown>
           </Nav> 
           </Navbar.Collapse>

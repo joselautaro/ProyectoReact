@@ -8,7 +8,7 @@ const Icon = () =>{
     return (
      
         
-        <h4> Lets go for a <BiCartAlt/>? </h4>
+        <h5> Lets go for a <BiCartAlt/>? </h5>
     )
 
 }
