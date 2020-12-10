@@ -1,16 +1,19 @@
 // import logo from './logo.svg';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavBar from './components/NavBar';
 import './components/style.css';
+import ItemListContainer from './components/ItemListContainer';
 
 
 
 function App() {
   return (
-    <div className="App">
+    <>
       <NavBar/>
-    </div>
+      <ItemListContainer titulo="Cualquier Titulo"/>
+    </>
   );
 }
 
