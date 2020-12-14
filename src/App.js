@@ -1,10 +1,9 @@
-// import logo from './logo.svg';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import NavBar from './components/NavBar';
-import './components/style.css';
-import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/NavBar/NavBar';
+import Greeting from './components/Greeting/Greeting';
+import ItemCount from './components/ItemCount/ItemCount';
 
 
 
@@ -12,7 +11,8 @@ function App() {
   return (
     <>
       <NavBar/>
-      <ItemListContainer titulo="Cualquier Titulo"/>
+      <Greeting titulo="Cualquier Titulo"/>
+      <ItemCount initialValue={1} maxValue={20}/>
     </>
   );
 }

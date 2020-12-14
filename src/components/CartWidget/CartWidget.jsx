@@ -1,12 +1,12 @@
 import { BiCartAlt} from "react-icons/bi";
-import './components/style.css';
+import './CartWidget.css';
 
 
 
 const Icon = () =>{
   
     return (
-     <h5> Lets go for a <BiCartAlt/>? </h5>
+     <h5><BiCartAlt className="carrito"/></h5>
     )
 
 }

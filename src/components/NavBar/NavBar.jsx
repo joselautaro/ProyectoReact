@@ -1,13 +1,13 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { BiCartAlt} from "react-icons/bi";
+import Icon from "../CartWidget/CartWidget";
 
 
 const NavBar = () =>{
     return(
         <Navbar bg="dark" variant="dark" expand="lg">
-        <BiCartAlt className="carrito"/>
+        <Icon className="carrito"/>
         <Navbar.Brand href="https://www.google.com/">Oficios.com</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
