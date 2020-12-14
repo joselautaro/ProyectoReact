@@ -12,7 +12,7 @@ function App() {
     <>
       <NavBar/>
       <Greeting titulo="Cualquier Titulo"/>
-      <ItemCount initialValue={1} maxValue={20}/>
+      <ItemCount initialValue={1} maxValue={5}/>
     </>
   );
 }
